@@ -1,0 +1,26 @@
+{
+  "name": "api-backend",
+  "version": "1.0.0",
+  "description": "Backend service providing RESTful API endpoints for searching and retrieving medical research metadata and documents.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medical-paywall/api-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medical-paywall/api-backend/issues"
+  },
+  "homepage": "https://github.com/medical-paywall/api-backend#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^9.1.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0"
+  }
+}
